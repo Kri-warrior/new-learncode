@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learncode</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      img {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="text-gray-400 bg-gray-900 body-font">
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+        <a
+          class="flex title-font font-medium items-center text-white mb-4 md:mb-0"
+          href="index.html"
+        >
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/004/908/595/original/coding-logo-design-template-free-vector.jpg"
+            style="height: 35px; border-radius: 50px"
+          />
+          <path
+            d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+          ></path>
+
+          <span class="ml-3 text-xl">Learncode</span>
+        </a>
+        <nav
+          class="md:ml-auto flex flex-wrap items-center text-base justify-center"
+        >
+          <a class="mr-5 hover:text-white" href="index.html">Home</a>
+          <a class="mr-5 hover:text-white" href="courses.html">Our Courses</a>
+          <a class="mr-5 hover:text-white" href="notes.html">Notes</a>
+        </nav>
+        <button
+          class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+          id="button1"
+        >
+          <a href="contactus.html">Contact Us</a>
+          <svg
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-4 h-4 ml-1"
+            viewBox="0 0 24 24"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <hr>
+
+    <main>
+      <section class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col">
+            <div class="h-1 bg-gray-800 rounded overflow-hidden">
+              <div class="w-24 h-full bg-indigo-500"></div>
+            </div>
+            <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
+              <h1
+                class="sm:w-2/5 text-white font-medium title-font text-2xl mb-2 sm:mb-0"
+              >
+                Premium Courses
+              </h1>
+            </div>
+          </div>
+          <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+            <div
+              class="p-4 md:w-1/3 sm:mb-0 mb-6"
+              style="background: rgb(30, 41, 59); border-radius: 15px"
+            >
+              <div class="rounded-lg h-64 overflow-hidden">
+                <img
+                  alt="content"
+                  class="object-cover object-center w-full"
+                  src="https://www.codewithharry.com/_next/image/?url=https%3A%2F%2Fcwh-full-next-space.fra1.digitaloceanspaces.com%2Fvideoseries%2Fpython-100-days-of-code-1%2F7wnove7K-ZQ-HD.jpg&w=384&q=75"
+                />
+              </div>
+              <h2 class="text-xl font-medium title-font text-white mt-5">
+                Python Tutorials - 100 Days of Code
+              </h2>
+              <p class="text-base leading-relaxed mt-2">
+                Python is one of the most demanded programming languages in the
+                job market. Surprisingly, it is equally easy to learn and master
+                Python. Let's commit our 100 days of code to python!
+              </p>
+              <br />
+
+              <a
+                class="text-indigo-400 inline-flex items-center mt-3"
+                href="https://www.youtube.com/watch?v=7wnove7K-ZQ&list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg"
+                >Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+            <div
+              class="p-4 md:w-1/3 sm:mb-0 mb-6"
+              style="background: rgb(30, 41, 59); border-radius: 15px"
+            >
+              <div class="rounded-lg h-64 overflow-hidden">
+                <img
+                  alt="content"
+                  class="object-cover object-center w-full"
+                  src="https://www.codewithharry.com/_next/image/?url=https%3A%2F%2Fcwh-full-next-space.fra1.digitaloceanspaces.com%2Fvideoseries%2Fultimate-js-tutorial-hindi-1%2FJS-Thumb.jpg&w=384&q=75"
+                />
+              </div>
+              <h2 class="text-xl font-medium title-font text-white mt-5">
+                Ultimate JavaScript Course
+              </h2>
+              <p class="text-base leading-relaxed mt-2">
+                This latest JavaScript course comes with premium curriculum that
+                covers everything from basics to advance. On top of that, you
+                will get my handwritten notes of JS for completely free. What
+                are you waiting for? Just Enroll Buddy.
+              </p>
+              <a
+                class="text-indigo-400 inline-flex items-center mt-3"
+                href="https://www.youtube.com/watch?v=ER9SspLe4Hg&list=PLu0W_9lII9ahR1blWXxgSlL4y9iQBnLpR"
+                >Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+            <div
+              class="p-4 md:w-1/3 sm:mb-0 mb-6"
+              style="background: rgb(30, 41, 59); border-radius: 15px"
+            >
+              <div class="rounded-lg h-64 overflow-hidden">
+                <img
+                  alt="content"
+                  class="object-cover object-center w-full"
+                  src="https://www.codewithharry.com/_next/image/?url=https%3A%2F%2Fcodewithharry.nyc3.cdn.digitaloceanspaces.com%2Fassets%2F090fefe24d23d47584f6ddc7eb5a241e.png&w=384&q=75"
+                />
+              </div>
+              <h2 class="text-xl font-medium title-font text-white mt-5">
+                React JS Tutorials For Beginners
+              </h2>
+              <p class="text-base leading-relaxed mt-2">
+                React is a free and open-source front-end JavaScript library.
+                This series will cover React from starting to the end. We will
+                learn react from the ground up!
+              </p>
+              <br /><br />
+              <a
+                class="text-indigo-400 inline-flex items-center mt-3"
+                href="https://www.youtube.com/watch?v=-mJFZp84TIY&list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt"
+                >Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+            <div
+              class="p-4 md:w-1/3 sm:mb-0 mb-6"
+              style="background: rgb(30, 41, 59); border-radius: 15px"
+            >
+              <div class="rounded-lg h-64 overflow-hidden">
+                <img
+                  alt="content"
+                  class="object-cover object-center w-full"
+                  src="https://www.codewithharry.com/_next/image/?url=https%3A%2F%2Fcodewithharry.nyc3.cdn.digitaloceanspaces.com%2Fassets%2Fe1c843acc10c59c60504cd438a082c6d.png&w=384&q=75"
+                />
+              </div>
+              <h2 class="text-xl font-medium title-font text-white mt-5">
+                Tailwind CSS Course In Hindi
+              </h2>
+              <p class="text-base leading-relaxed mt-2">
+                Complete Tailwind CSS Course by CodeWithHarry in Hindi - Learn
+                Tailwind CSS from scratch for free!
+              </p>
+              <br /><br /><br /><br />
+
+              <a
+                class="text-indigo-400 inline-flex items-center mt-3"
+                href="https://www.youtube.com/watch?v=L4_jarMnB0c&t=1s"
+                >Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+            <div
+              class="p-4 md:w-1/3 sm:mb-0 mb-6"
+              style="background: rgb(30, 41, 59); border-radius: 15px"
+            >
+              <div class="rounded-lg h-64 overflow-hidden">
+                <img
+                  alt="content"
+                  class="object-cover object-center w-full"
+                  src="https://www.codewithharry.com/_next/image/?url=https%3A%2F%2Fcwh-full-next-space.fra1.digitaloceanspaces.com%2Fvideoseries%2Fsanity-tutorial-in-hindi-1%2FSanity-Thumb.jpg&w=384&q=75"
+                />
+              </div>
+              <h2 class="text-xl font-medium title-font text-white mt-5">
+                Sanity.io Tutorials in Hindi
+              </h2>
+              <p class="text-base leading-relaxed mt-2">
+                Sanity.io is the platform for structured content. This course
+                will not only cover Sanity from starting to the end, but it has
+                projects for hands-on experience.
+              </p>
+              <br /><br /><br />
+              <a
+                class="text-indigo-400 inline-flex items-center mt-3"
+                href="https://www.youtube.com/watch?v=LpCFF2hzPzs"
+                >Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+            <div
+              class="p-4 md:w-1/3 sm:mb-0 mb-6"
+              style="background: rgb(30, 41, 59); border-radius: 15px"
+            >
+              <div class="rounded-lg h-64 overflow-hidden">
+                <img
+                  alt="content"
+                  class="object-cover object-center w-full"
+                  src="https://www.codewithharry.com/_next/image/?url=https%3A%2F%2Fcwh-full-next-space.fra1.digitaloceanspaces.com%2Fvideoseries%2Fstrapi-tutorial-in-hindi-1%2FStrapi-Thumb.jpg&w=384&q=75"
+                />
+              </div>
+              <h2 class="text-xl font-medium title-font text-white mt-5">
+                Strapi Tutorial For Beginners
+              </h2>
+              <p class="text-base leading-relaxed mt-2">
+                This course contains everything that you should know about
+                Strapi. It is an open-source, Headless CMS that saves lot of
+                time for developers by giving them freedom to use their favorite
+                tools and frameworks.
+              </p>
+              <br /><br />
+              <a
+                class="text-indigo-400 inline-flex items-center mt-3"
+                href="https://www.youtube.com/watch?v=CB3pEMl9TOA"
+                >Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col">
+            <div class="h-1 bg-gray-800 rounded overflow-hidden">
+              <div class="w-24 h-full bg-indigo-500"></div>
+            </div>
+            <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
+              <h1
+                class="sm:w-2/5 text-white font-medium title-font text-2xl mb-2 sm:mb-0"
+              >
+                More Courses
+              </h1>
+            </div>
+          </div>
+          <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+            <div
+              class="p-4 md:w-1/3 sm:mb-0 mb-6"
+              style="background: rgb(30, 41, 59); border-radius: 15px"
+            >
+              <div class="rounded-lg h-64 overflow-hidden">
+                <img
+                  alt="content"
+                  class="object-cover object-center w-full"
+                  src="https://www.codewithharry.com/_next/image/?url=https%3A%2F%2Fcodewithharry.nyc3.cdn.digitaloceanspaces.com%2Fassets%2F62f60049963012281edcc77dd2ec031b.png&w=384&q=75"
+                />
+              </div>
+              <h2 class="text-xl font-medium title-font text-white mt-5">
+                Next.js Tutorials For Beginners
+              </h2>
+              <p class="text-base leading-relaxed mt-2">
+                Complete Next.js Course by CodeWithHarry in Hindi - Learn
+                Next.js from Scratch.
+              </p>
+              <br /><br /><br /><br />
+
+              <a
+                class="text-indigo-400 inline-flex items-center mt-3"
+                href="https://www.youtube.com/watch?v=DZKOunP-WLQ"
+                >Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+            <div
+              class="p-4 md:w-1/3 sm:mb-0 mb-6"
+              style="background: rgb(30, 41, 59); border-radius: 15px"
+            >
+              <div class="rounded-lg h-64 overflow-hidden">
+                <img
+                  alt="content"
+                  class="object-cover object-center w-full"
+                  src="https://i.ytimg.com/vi/mXjZQX3UzOs/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDm53eQPQVuLXEsNhxz2yrw6l9DUg"
+                />
+              </div>
+              <h2 class="text-xl font-medium title-font text-white mt-5">
+                Android Development Tutorial For Beginners In Hindi
+              </h2>
+              <p class="text-base leading-relaxed mt-2">
+                This Android tutorial in Hindi will teach you how to make
+                Android apps that sell from scratch. We will learn to make apps
+                and publish them to the play store in 2023.
+              </p>
+              <br />
+              <a
+                class="text-indigo-400 inline-flex items-center mt-3"
+                href="https://www.youtube.com/watch?v=mXjZQX3UzOs"
+                >Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+            <div
+              class="p-4 md:w-1/3 sm:mb-0 mb-6"
+              style="background: rgb(30, 41, 59); border-radius: 15px"
+            >
+              <div class="rounded-lg h-64 overflow-hidden">
+                <img
+                  alt="content"
+                  class="object-cover object-center w-full"
+                  src="https://www.codewithharry.com/_next/image/?url=https%3A%2F%2Fcodewithharry.nyc3.cdn.digitaloceanspaces.com%2Fassets%2Fc60b26139e9868b92d6ada1cdf7810cf.png&w=384&q=75"
+                />
+              </div>
+              <h2 class="text-xl font-medium title-font text-white mt-5">
+                Web Development Tutorials For Beginners
+              </h2>
+              <p class="text-base leading-relaxed mt-2">
+                This is one of my favorite courses. In this series, you'll learn
+                about HTML, CSS, JavaScript, and everything needed to be a
+                job-ready web developer. Just hop on, man.
+              </p>
+              <br /><br />
+              <a
+                class="text-indigo-400 inline-flex items-center mt-3"
+                href="https://www.youtube.com/watch?v=6mbwJ2xhgzM"
+                >Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+            <div
+              class="p-4 md:w-1/3 sm:mb-0 mb-6"
+              style="background: rgb(30, 41, 59); border-radius: 15px"
+            >
+              <div class="rounded-lg h-64 overflow-hidden">
+                <img
+                  alt="content"
+                  class="object-cover object-center w-full"
+                  src="https://www.codewithharry.com/_next/image/?url=https%3A%2F%2Fcodewithharry.nyc3.cdn.digitaloceanspaces.com%2Fassets%2F2aefee3112fe9273f4d7d13541ab7094.png&w=384&q=75"
+                />
+              </div>
+              <h2 class="text-xl font-medium title-font text-white mt-5">
+                Java Tutorials For Beginners
+              </h2>
+              <p class="text-base leading-relaxed mt-2">
+                If you don't know programming and want to start your career by
+                learning Java as your first language, you can start with this
+                course as it is for absolute beginners.
+              </p>
+              <br />
+
+              <a
+                class="text-indigo-400 inline-flex items-center mt-3"
+                href="https://www.youtube.com/watch?v=ntLJmHOJ0ME"
+                >Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+            <div
+              class="p-4 md:w-1/3 sm:mb-0 mb-6"
+              style="background: rgb(30, 41, 59); border-radius: 15px"
+            >
+              <div class="rounded-lg h-64 overflow-hidden">
+                <img
+                  alt="content"
+                  class="object-cover object-center w-full"
+                  src="https://www.codewithharry.com/_next/image/?url=https%3A%2F%2Fcodewithharry.nyc3.cdn.digitaloceanspaces.com%2Fassets%2F0cc70fb920f432f8f4c479330c7a41e0.png&w=384&q=75"
+                />
+              </div>
+              <h2 class="text-xl font-medium title-font text-white mt-5">
+                Git and GitHub Tutorials For Beginners
+              </h2>
+              <p class="text-base leading-relaxed mt-2">
+                If you're serious about coding and want to make a career out of
+                it, then do learn Git and GitHub because it is something that
+                you'll use at every phase of your job.
+              </p>
+              <a
+                class="text-indigo-400 inline-flex items-center mt-3"
+                href="https://www.youtube.com/watch?v=vunhMBRfhL8"
+                >Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+            <div
+              class="p-4 md:w-1/3 sm:mb-0 mb-6"
+              style="background: rgb(30, 41, 59); border-radius: 15px"
+            >
+              <div class="rounded-lg h-64 overflow-hidden">
+                <img
+                  alt="content"
+                  class="object-cover object-center w-full"
+                  src="https://www.codewithharry.com/_next/image/?url=https%3A%2F%2Fcodewithharry.nyc3.cdn.digitaloceanspaces.com%2Fassets%2Fd3c4ddaaa6d7ac69f590baeba279e806.png&w=384&q=75"
+                />
+              </div>
+              <h2 class="text-xl font-medium title-font text-white mt-5">
+                Data Science and Big Data Tutorials
+              </h2>
+              <p class="text-base leading-relaxed mt-2">
+                This course will give you a gist of Data Science and Big Data.
+                I'm sure you must have heard about Data Scientist. This series
+                contains the content to become one of them.
+              </p>
+              <br /><br />
+              <a
+                class="text-indigo-400 inline-flex items-center mt-3"
+                href="https://www.youtube.com/watch?v=pF-h1YCS5GE"
+                >Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+            <div
+              class="p-4 md:w-1/3 sm:mb-0 mb-6"
+              style="background: rgb(30, 41, 59); border-radius: 15px"
+            >
+              <div class="rounded-lg h-64 overflow-hidden">
+                <img
+                  alt="content"
+                  class="object-cover object-center w-full"
+                  src="https://www.codewithharry.com/_next/image/?url=https%3A%2F%2Fcodewithharry.nyc3.cdn.digitaloceanspaces.com%2Fassets%2F488c39e3286b452d8a0b30de80257f81.png&w=384&q=75"
+                />
+              </div>
+              <h2 class="text-xl font-medium title-font text-white mt-5">
+                Machine Learning Tutorials For Beginners
+              </h2>
+              <p class="text-base leading-relaxed mt-2">
+                Machine Learning is one of the exciting topics nowadays. And if
+                you want to get a glimpse of ML, don't think twice. Just get
+                started with this course.
+              </p>
+              <br /><br /><br />
+
+              <a
+                class="text-indigo-400 inline-flex items-center mt-3"
+                href="https://www.youtube.com/watch?v=_u-PaJCpwiU"
+                >Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+            <div
+              class="p-4 md:w-1/3 sm:mb-0 mb-6"
+              style="background: rgb(30, 41, 59); border-radius: 15px"
+            >
+              <div class="rounded-lg h-64 overflow-hidden">
+                <img
+                  alt="content"
+                  class="object-cover object-center w-full"
+                  src="https://www.codewithharry.com/_next/image/?url=https%3A%2F%2Fcodewithharry.nyc3.cdn.digitaloceanspaces.com%2Fassets%2F0c9fbb82efe5437883daf3e96ab77e10.png&w=384&q=75"
+                />
+              </div>
+              <h2 class="text-xl font-medium title-font text-white mt-5">
+                Realtime PHP Chatroom Tutorials
+              </h2>
+              <p class="text-base leading-relaxed mt-2">
+                This is one of the best applications of PHP and Jquery. In this
+                series, we've developed a real-time chatroom, so if you're
+                someone who likes project-based learning, this is for you.
+              </p>
+              <br /><br />
+              <a
+                class="text-indigo-400 inline-flex items-center mt-3"
+                href="https://www.youtube.com/watch?v=eXudjwOwv-8"
+                >Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+            <div
+              class="p-4 md:w-1/3 sm:mb-0 mb-6"
+              style="background: rgb(30, 41, 59); border-radius: 15px"
+            >
+              <div class="rounded-lg h-64 overflow-hidden">
+                <img
+                  alt="content"
+                  class="object-cover object-center w-full"
+                  src="https://www.codewithharry.com/_next/image/?url=https%3A%2F%2Fcodewithharry.nyc3.cdn.digitaloceanspaces.com%2Fassets%2Fbcbd66927239e25555ed8ce2385b8879.png&w=384&q=75"
+                />
+              </div>
+              <h2 class="text-xl font-medium title-font text-white mt-5">
+                C Language Tutorials For Beginners
+              </h2>
+              <p class="text-base leading-relaxed mt-2">
+                Even if you don't know the ABC of coding, start this course, and
+                I can assure you that you'll be an intermediate-level coder
+                after completion. Get started with C language.
+              </p>
+              <br /><br />
+              <a
+                class="text-indigo-400 inline-flex items-center mt-3"
+                href="https://www.youtube.com/watch?v=7Dh73z3icd8"
+                >Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+    </main>
+
+    <footer class="text-gray-400 bg-gray-900 body-font">
+      <div
+        class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col"
+      >
+        <a
+          class="flex title-font font-medium items-center md:justify-start justify-center text-white"
+          href="index.html"
+        >
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/004/908/595/original/coding-logo-design-template-free-vector.jpg"
+            style="height: 35px; border-radius: 50px"
+          />
+          <path
+            d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+          ></path>
+
+          <span class="ml-3 text-xl">Learncode</span>
+        </a>
+        <p
+          class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4"
+        >
+          © 2023 Learncode —
+          <a
+            class="text-gray-500 ml-1"
+            target="_blank"
+            rel="noopener noreferrer"
+            >@Krishna Dhiman and Team</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

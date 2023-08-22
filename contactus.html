@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learncode</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="text-gray-400 bg-gray-900 body-font">
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+        <a
+          class="flex title-font font-medium items-center text-white mb-4 md:mb-0"
+          href="index.html"
+        >
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/004/908/595/original/coding-logo-design-template-free-vector.jpg"
+            style="height: 35px; border-radius: 50px"
+          />
+          <path
+            d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+          ></path>
+
+          <span class="ml-3 text-xl">Learncode</span>
+        </a>
+        <nav
+          class="md:ml-auto flex flex-wrap items-center text-base justify-center"
+        >
+          <a class="mr-5 hover:text-white" href="index.html">Home</a>
+          <a class="mr-5 hover:text-white" href="courses.html">Our Courses</a>
+          <a class="mr-5 hover:text-white" href="notes.html">Notes</a>
+        </nav>
+        <button
+          class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+          id="button1"
+        >
+          <a href="contactus.html">Contact Us</a>
+          <svg
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-4 h-4 ml-1"
+            viewBox="0 0 24 24"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+        <section class="text-gray-400 bg-gray-900 body-font relative">
+            <form name="myform">
+            <div class="container px-5 py-24 mx-auto">
+              <div class="flex flex-col text-center w-full mb-12">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Contact Us</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Feel free to contact us and we will come back as soon as possible.</p>
+              </div>
+              <div class="lg:w-1/2 md:w-2/3 mx-auto">
+                <div class="flex flex-wrap -m-2">
+                  <div class="p-2 w-1/2">
+                    <div class="relative">
+                      <label for="name" class="leading-7 text-sm text-gray-400">Name</label>
+                      <input type="text" id="name" name="name" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                  </div>
+                  <div class="p-2 w-1/2">
+                    <div class="relative">
+                      <label for="email" class="leading-7 text-sm text-gray-400">Email</label>
+                      <input type="email" id="email" name="email" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                  </div>
+                  <div class="p-2 w-full">
+                    <div class="relative">
+                      <label for="message" class="leading-7 text-sm text-gray-400">Message</label>
+                      <textarea id="message" name="message" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                    </div>
+                  </div>
+                  <div class="p-2 w-full">
+                    <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" onclick="send()">Submit</button>
+                  </div>
+                  <div class="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
+                    <a class="text-indigo-400">krishnadhiman8264@email.com</a>
+                    <p class="leading-normal my-5">C-7 Parshwa City Bhachau
+                      <br>370140, Gujarat, India
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </form>
+          </section>
+    </main>
+
+    <hr>
+
+    <footer class="text-gray-400 bg-gray-900 body-font">
+      <div
+        class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col"
+      >
+        <a
+          class="flex title-font font-medium items-center md:justify-start justify-center text-white"
+          href="index.html"
+        >
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/004/908/595/original/coding-logo-design-template-free-vector.jpg"
+            style="height: 35px; border-radius: 50px"
+          />
+          <path
+            d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+          ></path>
+
+          <span class="ml-3 text-xl">Learncode</span>
+        </a>
+        <p
+          class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4"
+        >
+          © 2023 Learncode —
+          <a
+            class="text-gray-500 ml-1"
+            target="_blank"
+            rel="noopener noreferrer"
+            >@Krishna Dhiman and Team</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script>
+        function send(){
+        let a = document.forms["myform"]["name"].value;
+          if(a==""){
+            alert("Please Enter Your Name")
+          }
+
+          let b = document.forms["myform"]["email"].value;
+          if(b==""){
+            alert("Please Enter Your Email")
+          }
+
+
+          let e = document.forms["myform"]["message"].value;
+          if(e==""){
+            alert("Please Enter Your Message")
+          }
+
+          if(a!=="" & b!=="" & e!==""){
+            alert("Form Submitted")
+          }
+        }
+    </script>
+  </body>
+</html>
